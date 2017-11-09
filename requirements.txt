@@ -1,4 +1,4 @@
-ipywidgets
+ipywidgets==7
 fileupload
 matplotlib
 bqplot
