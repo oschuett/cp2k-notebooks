@@ -1,2 +1,4 @@
+fileupload
 appmode
+nglview
 ase
