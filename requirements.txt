@@ -1,4 +1,7 @@
+ipywidgets
 fileupload
+matplotlib
+bqplot
 appmode
 nglview
 ase

@@ -1,7 +1,11 @@
 #!/bin/bash
 
+jupyter nbextension     enable  --sys-prefix --py widgetsnbextension
+jupyter nbextension     enable  --sys-prefix --py nglview
+jupyter nbextension     enable  --sys-prefix --py bqplot
 jupyter nbextension     install --sys-prefix --py fileupload
 jupyter nbextension     enable  --sys-prefix --py fileupload
-jupyter nbextension     enable  --sys-prefix --py nglview
 jupyter nbextension     enable  --sys-prefix --py appmode
 jupyter serverextension enable  --sys-prefix --py appmode
+
+#EOF
