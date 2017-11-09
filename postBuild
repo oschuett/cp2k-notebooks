@@ -1,0 +1,4 @@
+#!/bin/bash
+
+jupyter nbextension     enable --sys-prefix --py appmode
+jupyter serverextension enable --sys-prefix --py appmode
