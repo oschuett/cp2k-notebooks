@@ -1,1 +1,2 @@
+mpich
 cp2k
